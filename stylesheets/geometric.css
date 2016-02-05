@@ -1,4 +1,27 @@
-/* line 3, ../sass/geometric.scss */
+/* line 6, ../sass/geometric.scss */
+.geometric-group-circle ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 9, ../sass/geometric.scss */
+.geometric-group-circle ul li {
+  list-style-type: none;
+  background: #a80000;
+  border-radius: 100%;
+  padding: 40px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  display: inline;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 24, ../sass/geometric.scss */
+  .geometric-group-circle ul li {
+    display: inline-block;
+  }
+}
+/* line 30, ../sass/geometric.scss */
 .geometric-button-circle {
   background: #a80000;
   border-radius: 100%;
@@ -7,19 +30,19 @@
   width: 100px;
   height: 100px;
 }
-/* line 10, ../sass/geometric.scss */
+/* line 37, ../sass/geometric.scss */
 .geometric-button-circle a {
   font-size: 20px;
   color: #ffffff;
   margin: 20px;
 }
-/* line 16, ../sass/geometric.scss */
+/* line 43, ../sass/geometric.scss */
 .geometric-button-circle input {
   border: none;
   background: none;
   color: #ffffff;
 }
-/* line 20, ../sass/geometric.scss */
+/* line 47, ../sass/geometric.scss */
 .geometric-button-circle inputfocus {
   outline: none;
 }

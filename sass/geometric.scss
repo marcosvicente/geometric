@@ -1,7 +1,34 @@
 $color-background-default:#a80000;
 $color-font-default: #ffffff;
+
+.geometric-group-circle{
+
+    ul {
+        margin: 0;
+        padding:0;
+        li{
+            list-style-type:none;
+            background:$color-background-default;
+            border-radius: 100% ;
+            padding:40px; 
+            cursor:pointer;
+            width:100px;
+            height:100px;
+            display:inline;
+
+        }
+    }
+}
+
+@media screen and(max-width:800px){
+    .geometric-group-circle ul li{
+        display: inline-block;
+    }
+
+}
+
 .geometric-button-circle {
- background:$color-background-default;
+    background:$color-background-default;
     border-radius: 100% ;
     padding:40px; 
     cursor:pointer;
@@ -17,9 +44,9 @@ $color-font-default: #ffffff;
         border:none;
         background:none;
         color:$color-font-default;
-    &focus{
-        outline:none;
-      }          
+        &focus{
+            outline:none;
+        }          
     }
-    
+
 }
