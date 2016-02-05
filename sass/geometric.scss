@@ -1,0 +1,11 @@
+$color-background-default:#a80000;
+$color-font-default: #ffffff;
+.geometric-button-circle a{
+    background:$color-background-default;
+    color: $color-font-default ;
+    border-radius: 100% ;
+    padding:50px;
+    cursor:pointer;
+    width:100px;
+    height:100px;
+}
